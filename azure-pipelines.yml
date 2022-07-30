@@ -1,11 +1,11 @@
 trigger:
 - '*'
 
-pool:
-#  vmImage: 'ubuntu-20.04'
-  name: Default
-  demands:
-  - npm
+# pool:
+# #  vmImage: 'ubuntu-20.04'
+#   name: Default
+#   demands:
+#   - npm
 
 variables:
   buildConfiguration: 'Release'
